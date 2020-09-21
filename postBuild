@@ -1,5 +1,5 @@
 set -ex
 
-Rscript -e 'install.packages(c("geomorph", "Momocs", "imager", "nlsem", "regsem", "semPlot"), dependencies=TRUE, quiet=TRUE)'
+Rscript -e 'install.packages(c("geomorph", "Momocs", "imager", "nlsem", "regsem", "semPlot"), dependencies=TRUE, quiet=TRUE, repos=c("https://cloud.r-project.org"))'
 
 git clone https://github.com/mjfeldmann/2DShapeDescription.git
