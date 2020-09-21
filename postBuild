@@ -1,0 +1,5 @@
+set -ex
+
+Rscript -e 'install.packages(c("geomorph", "Momocs", "imager", "nlsem", "regsem", "semPlot"), dependencies=TRUE, quiet=TRUE)'
+
+git clone https://github.com/mjfeldmann/2DShapeDescription.git
