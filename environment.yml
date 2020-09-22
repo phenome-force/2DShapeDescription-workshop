@@ -4,7 +4,9 @@ dependencies:
     - r-base=3.6
     - r-rcpp
     - r-ape
+    - r-bdgraph
     - r-cairo
+    - r-caret
     - r-clue
     - r-cluster
     - r-cowplot
@@ -15,10 +17,16 @@ dependencies:
     - r-factoextra
     - r-geometry
     - r-ggraph
+    - r-glasso
+    - r-glmnet
+    - r-gower
     - r-gridextra
+    - r-huge
     - r-igraph
+    - r-ipred
     - r-jpeg
     - r-keras
+    - r-kernsmooth
     - r-lattice
     - r-lavaan
     - r-lme4
@@ -26,18 +34,26 @@ dependencies:
     - r-magrittr
     - r-mass
     - r-mclust
+    - r-mvtnorm
     - r-nbclust
+    - r-nlcoptim
     - r-openimager
+    - r-openmx
     - r-ordinal
     - r-orthopolynom
     - r-plyr
     - r-png
+    - r-prodlim
     - r-progress
+    - r-quadprog
     - r-raster
     - r-rcolorbrewer
     - r-readbitmap
     - r-readxl
+    - r-recipes
     - r-rgeos
+    - r-rgl
+    - r-rpf
     - r-rsolnp
     - r-scales
     - r-sem
